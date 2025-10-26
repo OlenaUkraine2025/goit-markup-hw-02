@@ -15,8 +15,8 @@ a {
   font-weight: 500;
   line-height: 1.5;
 }
-a:hover,
-a:focus {
+.logo:hover,
+.logo:focus {
   color: #404bbf;
 }
 ul,
