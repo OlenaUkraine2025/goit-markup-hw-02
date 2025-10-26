@@ -1,12 +1,77 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #fff;
-  background-color: var(--white);
+  color: #2e2f42;
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+a: hover, 
+a: focus {
+  color: #404bbf;
 }
 ul,
 ol {
   list-style: none;
+}
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07143;
+}
+button {
+  cursor: pointer;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11111;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.contacts {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.main-title {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+.main-btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+p {
+  color: #434455;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.main-text {
+  color: #434455;
+}
+.main-team {
+  background-color: #f4f4fd;
+}
+.section-foto {
+  background-color: #ffffff;
+}
+footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
 }
