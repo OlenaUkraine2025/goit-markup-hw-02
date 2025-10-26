@@ -4,6 +4,10 @@
 .black {
   color: #2e2f42;
 }
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
@@ -15,10 +19,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
 }
-.logo:hover,
-.logo:focus {
-  color: #404bbf;
-}
+
 ul,
 ol {
   list-style: none;
