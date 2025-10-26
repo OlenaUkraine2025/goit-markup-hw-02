@@ -1,3 +1,9 @@
+.blue {
+  color: #4d5ae5;
+}
+.black {
+  color: #2e2f42;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
@@ -9,8 +15,8 @@ a {
   font-weight: 500;
   line-height: 1.5;
 }
-a: hover, 
-a: focus {
+a:hover,
+a:focus {
   color: #404bbf;
 }
 ul,
@@ -69,6 +75,9 @@ p {
 }
 footer {
   background-color: #2e2f42;
+}
+.white {
+  color: #ffffff;
 }
 .footer-text {
   color: #f4f4fd;
