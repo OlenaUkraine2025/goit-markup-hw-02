@@ -42,12 +42,12 @@ body {
   background-color: #ffffff;
 }
 a {
-  text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 ul,
@@ -83,13 +83,7 @@ h3 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.banking {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+
 .contacts {
   color: #434455;
   font-size: 16px;
