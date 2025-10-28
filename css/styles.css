@@ -14,6 +14,12 @@
 .contacts {
   font-style: normal;
 }
+address:hover {
+  color: #404bbf;
+}
+address:focus {
+  color: #404bbf;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -24,10 +30,10 @@
   color: #4d5ae5;
 }
 a:hover {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 a:focus {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 
 body {
@@ -36,7 +42,7 @@ body {
   background-color: #ffffff;
 }
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -48,7 +54,7 @@ ul,
 ol {
   list-style: none;
 }
-h1 {
+.title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
