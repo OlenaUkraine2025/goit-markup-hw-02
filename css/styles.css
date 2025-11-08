@@ -16,7 +16,7 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
-.container {
+.main-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -50,7 +50,7 @@ ul {
   flex-direction: row;
   gap: 0px;
   margin-right: 76px;
-  padding: 24px 0;
+  
 
 }
 .nav-text {
@@ -60,7 +60,7 @@ ul {
   flex-direction: row;
   gap: 40px;
   margin: 0;
-  padding: 0;
+  padding: 24px 0;
 }
 
 address:hover {
@@ -99,7 +99,7 @@ ol {
   display: flex;
 }
 
-.main-container {
+.container {
   width: 1440px
   height: 600px;
   background-color: #2e2f42;
@@ -156,6 +156,14 @@ h2 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.container-property {
+  padding: 120px 0;
+
+}
+.main-property {
+  display: flex;
+
+}
 .team-property {
   width: 1128px;
   height: 104px;
@@ -173,9 +181,10 @@ align-items: flex-start;
 justify-content: center;
 flex-direction: column;
 gap: 8px;
+margin-bottom: 8px; 
 }
 .setting-property {
-  width: 264px;
+
   height: 104px;
   display: flex;
   align-items: flex-start;
