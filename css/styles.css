@@ -9,9 +9,12 @@ ul {
 .black {
   color: #2e2f42;
 }
-. header {
+.header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .container {
   display: flex;
@@ -45,10 +48,9 @@ ul {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
-  padding-left: 156px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-right: 76px; 
+  margin-right: 76px;
+  padding: 24px 0;
+
 }
 .nav-text {
   display: flex;
@@ -87,7 +89,9 @@ a {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
+img {
+  display: block;
+}
 ul,
 ol {
   list-style: none;
@@ -95,10 +99,11 @@ ol {
 }
 
 .main-container {
-  width: 1440px;
+  width: 1440px
   height: 600px;
   background-color: #2e2f42;
   flex-direction: column;
+  padding: 188px 0;
 }
 .main-title {
   background-color: #2e2f42;
@@ -116,8 +121,14 @@ ol {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  width: 169px;
   height: 56px;
+  padding-block: 16px;
+  padding-inline: 32px;
+  display: block; 
+  min-width: 169px;
+  border: none;
+  cursor: pointer;
+
 }
 
 .title {
@@ -129,11 +140,9 @@ ol {
   padding-left: 472px;
   padding-right: 472px;
   text-align: center;
+  max-width: 496px;
 }
 
-button {
-  cursor: pointer;
-}
 button:hover {
   background-color: #404bbf;
 }
@@ -150,10 +159,8 @@ h2 {
 .team-property {
   width: 1128px;
   height: 104px;
-  padding-top: 120px;
-  padding-left: 156px;
-  padding-bottom: 120px;
-  padding-right: 156px;
+  padding: 120px 0;
+  gap: 24px;
 }
 .property {
   font-size: 20px;
@@ -176,6 +183,7 @@ gap: 8px;
   flex-direction: column;
   gap: 8px;
   padding-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .contacts {
@@ -184,11 +192,12 @@ gap: 8px;
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0.02em;
-  gap: 20px;
+  gap: 40px;
   flex-direction: row;
   display: flex;
   margin: 0; */
   padding: 0;
+  
 }
 
 .team {
@@ -216,6 +225,7 @@ height: 380px;
 }
 .main-text {
   color: #434455;
+  margin-bottom: 8px;
 }
 .main-team {
   line-height: 1.11;
@@ -230,10 +240,7 @@ height: 380px;
   
 }
 
-.btn {
-  padding-block: 16px;
-  padding-inline: 32px;
-}
+
 p {
   color: #434455;
   font-size: 12px;
