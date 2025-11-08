@@ -60,9 +60,11 @@ ul {
   flex-direction: row;
   gap: 40px;
   margin: 0;
-  padding: 24px 0;
+ 
 }
-
+.nav-link {
+ padding: 24px 0;
+}
 address:hover {
   color: #404bbf;
 }
@@ -149,6 +151,18 @@ button:hover {
 button:focus {
   background-color: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* запобігає перенесенню рядка */
+  border: 0;
+}
+
 h2 {
   font-size: 36px;
   font-weight: 700;
@@ -162,6 +176,7 @@ h2 {
 }
 .main-property {
   display: flex;
+  padding: 120px 0;
 
 }
 .team-property {
@@ -192,7 +207,7 @@ margin-bottom: 8px;
   flex-direction: column;
   gap: 8px;
   padding-right: 24px;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px)/4);
 }
 
 .contacts {
