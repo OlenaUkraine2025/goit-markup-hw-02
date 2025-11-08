@@ -12,19 +12,12 @@ ul {
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
   margin: 0 auto;
   padding: 0 15px;
 }
-.main-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 1158px;
-  height: 72px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 .title-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -48,22 +41,17 @@ ul {
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 0px;
+  gap: 0;
   margin-right: 76px;
-  
-
 }
 .nav-text {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
   gap: 40px;
   margin: 0;
- 
+  padding: 0;
 }
 .nav-link {
- padding: 24px 0;
+  padding: 24px 0;
 }
 address:hover {
   color: #404bbf;
@@ -102,10 +90,11 @@ ol {
 }
 
 .container {
-  width: 1440px
-  height: 600px;
-  background-color: #2e2f42;
-  flex-direction: column;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
 }
 .main-title {
   background-color: #2e2f42;
@@ -127,7 +116,7 @@ ol {
   height: 56px;
   padding-block: 16px;
   padding-inline: 32px;
-  display: block; 
+  display: block;
   min-width: 169px;
   border: none;
   cursor: pointer;
@@ -172,12 +161,10 @@ h2 {
 }
 .container-property {
   padding: 120px 0;
-
 }
 .main-property {
   display: flex;
   padding: 120px 0;
-
 }
 .team-property {
   width: 1128px;
@@ -192,14 +179,13 @@ h2 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
-align-items: flex-start;
-justify-content: center;
-flex-direction: column;
-gap: 8px;
-margin-bottom: 8px; 
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 .setting-property {
-
   height: 104px;
   display: flex;
   align-items: flex-start;
@@ -207,7 +193,7 @@ margin-bottom: 8px;
   flex-direction: column;
   gap: 8px;
   padding-right: 24px;
-  width: calc((100% - 72px)/4);
+  width: calc((100% - 72px) / 4);
 }
 
 .contacts {
@@ -219,12 +205,11 @@ margin-bottom: 8px;
   gap: 40px;
   flex-direction: row;
   display: flex;
-  margin: 0; */
+  margin: 0;
   padding: 0;
-  
 }
 
-.team {
+/* .team {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
@@ -233,19 +218,19 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 gap: 32px;
-}
+} */
 .section-foto {
   background-color: #ffffff;
   display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-gap: 32px;
-border-radius: 0 0 4px 4px;
-padding-block: 0px 32px;
-padding-inline: 0px;
-width: 264px;
-height: 380px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 0 0 4px 4px;
+  padding-block: 0px 32px;
+  padding-inline: 0px;
+  width: 264px;
+  height: 380px;
 }
 .main-text {
   color: #434455;
@@ -256,14 +241,12 @@ height: 380px;
   text-align: center;
   letter-spacing: 0.02em;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-foto {
   background-color: #ffffff;
   margin: 24px;
-  
 }
-
 
 p {
   color: #434455;
@@ -275,24 +258,22 @@ p {
 }
 .portfolio {
   width: 1128px;
-height: 888px;
-flex-wrap: wrap;
-display: flex;
-gap: 10px;
-justify-content: center;
-align-items: center;
-padding-top: 72px;
-padding-left: 156px;
-padding-right: 156px;
+  height: 888px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 72px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .item {
   width: calc((100% - 20px) / 3);
 }
 
-
-
-.footer-text {
+/* .footer-text {
   align-items: flex-start;
   justify-content: flex-start;
   display: flex;
@@ -303,7 +284,7 @@ height: 112px;
   padding-top: 100px;
   padding-bottom: 100px;
   gap: 8px;
-}
+} */
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -319,16 +300,14 @@ height: 112px;
 footer {
   background-color: #2e2f42;
   width: 1440px;
-height: 312px;
+  height: 312px;
 }
 .footer {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
-
